@@ -17,8 +17,8 @@ import os
 chrome_options = Options()
 dir_path = os.getcwd()
 chrome_options.add_argument(f'user-data-dir={dir_path}/storedatahere')
-chrome_options.add_argument("--headless")
-chrome_options.add_argument("--disable-gpu")
+#chrome_options.add_argument("--headless")
+#chrome_options.add_argument("--disable-gpu")
 #alt - chrome_options.add_argument("user-data-dir=C:\environments\selenium") #creates a new cookie/cache in the session
 #old - chrome_options.add_argument("--user-data-dir=chrome-data") #creates a new cookie/cache in the session)
 driver = webdriver.Chrome("A:\\Coding stuffs\\documents\\chromedriver.exe",options=chrome_options)#makes the driver use the data in the options
