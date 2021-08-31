@@ -1,4 +1,6 @@
 # weibo-liker
+
+Update: 31 Aug version
 likes weibo posts 
 
 prerequisites: chromedriver/browser driver of choice
